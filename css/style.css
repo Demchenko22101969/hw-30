@@ -1,0 +1,195 @@
+*,
+*:hover {
+    box-sizing:border-box;
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+  /* background-image: url("../images/fon/bgimg4.jfif"); */
+
+ 
+}
+
+ .first{
+height: 1000px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 25px;
+    position: relative;
+  
+    background-color: rgba(250, 254, 254, 0.7);
+}
+.logo{
+    position: absolute;
+    left: 80px;
+    z-index: 2;
+  
+   
+}
+.logo__img{
+    height: 55px;
+}
+
+.top {
+    margin-top: 10px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.menu__list {
+   
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.menu__item {
+    width: 205px;
+    font-size: 24px;
+    list-style-type: none;
+    text-align: center;
+   
+    border: 1px solid  brown;
+    padding: 10px;
+    border-right:1px solid brown;
+
+
+}
+.menu__item-last {
+     border-right: 1px solid red;
+  }
+
+  .menu__item:hover {
+    background-color: white;
+    color: brown;
+
+  }
+
+.menu__link {
+    text-decoration: none;
+font-size: 28px;
+color: brown;
+    text-transform: uppercase;
+   }
+
+.menu__btn{
+    border: 1px solid red;
+}
+
+
+
+
+ 
+
+.content {
+   
+    height: 500px;
+
+}
+.tovar__list{
+   
+    display: flex;
+    justify-content: center;
+  
+}
+.tovar__elem{
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 15px;
+    margin-bottom: 30px;
+
+}
+
+.tovar__img{
+width: 250px;
+}
+.tovar__text{
+text-align: center;
+font-size: 34px;
+color: brown;
+margin-bottom: 20px;
+}
+
+.tovar__btn{
+    display: block;
+margin: 0 auto;
+background-color:brown;
+color: white;
+font-size: 26px;
+padding: 10px 40px;
+margin-bottom: 20px;
+
+}
+
+.tovar__link {
+    text-decoration: none;
+ }
+
+.qw__img{
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+}
+
+
+
+
+.page-tovar__elem{
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-tovar__img{
+    width: 400px;
+    padding: 20px;
+}
+.page-tovar__text{
+  font-size: 38px; 
+  margin-bottom: 30px; 
+  text-align: center;
+}
+.page-tovar__about{
+    font-size: 26px;
+    margin-bottom: 30px;
+    
+}  
+
+ 
+ .labname{
+    display: inline-block;
+    width: 100px;
+    color:red;
+    font-size: 24px;
+ }
+
+ .labc{
+    display: inline-block;
+    width: 100px;
+    color:blue;
+    font-size: 24px;
+ }
+
+ .labemail{
+    display: inline-block;
+    width: 100px;
+    color:red;
+ }
+
